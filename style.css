@@ -59,3 +59,47 @@ nav a {
   border-radius: 4px;
   text-decoration: none;
 }
+body {
+  background-color: #ffeef2; /* soft light pink */
+}
+
+header h1 {
+  color: #c71585;
+}
+
+.brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 2em;
+}
+
+.brand-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1em;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.brand-card:hover {
+  transform: translateY(-5px);
+}
+
+.brand-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.8em;
+}
+
+.brand-card a {
+  text-decoration: none;
+  color: #c71585;
+  font-weight: bold;
+  font-size: 1.05em;
+  display: block;
+  margin-top: 0.5em;
+}
